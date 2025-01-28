@@ -1,0 +1,56 @@
+
+@charset "UTF-8";
+/* Start Bootstrap - Resume v7.0.6 */
+/* Copyright 2013-2023 Start Bootstrap */
+/* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) */
+/* Bootstrap v5.2.3 */
+/* Copyright 2011-2022 The Bootstrap Authors, Twitter, Inc. */
+/* Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) */
+:root {
+    --bs-primary: #003366; /* Midnight Blue */
+    --bs-white: #fff;
+    --bs-black: #000;
+    --bs-body-bg: var(--bs-white);
+    --bs-body-color: var(--bs-primary);
+    --bs-link-color: var(--bs-primary);
+    --bs-link-hover-color: darken(var(--bs-primary), 15%);
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--bs-primary);
+}
+header p {
+    font-size: 1.2rem;
+}
+a {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--bs-link-hover-color);
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--bs-primary);
+}
+section#about, section#portfolio {
+    display: block;
+}
+.hidden {
+    display: none;
+}
